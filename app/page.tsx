@@ -7,10 +7,12 @@ import Airbn from './components/Airnbn.jsx'
 import Tools from './components/Tools.jsx'
 import GettingStarted from './components/GettingStarted.jsx'
 import Reasons from './components/Reasons.jsx'
-import Clients from './components/Clients.jsx'
+// import Clients from './components/Clients.jsx'
+
 import Frequently from './components/Frequently.jsx'
 import Question from './components/Question.jsx'
 import Footer from './components/Footer.jsx'
+
 
 const page = () => {
   return (
@@ -23,7 +25,10 @@ const page = () => {
    <Tools/>
    <GettingStarted/>
   <Reasons/>
-   <Clients/>
+  <div className='bg-amber-900 '>
+  
+  </div>
+   {/* <Clients/> */}
    <Frequently/>
    <Question/>
    <Footer/>
