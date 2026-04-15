@@ -37,7 +37,7 @@ const Header = () => {
 </div>
 </div>
       </div>
- <div className={`md:hidden ${isMenuOpen ? 'block' :'hidden'} text-[16px] font-jost text-white `}>
+ <div className={`md:hidden ${isMenuOpen ? 'block' :'hidden'} text-[16px] font-jost mt-2.5 text-white `}>
 <a href="" className=' block  bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>Home</a> 
 <a href="" className=' block bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>About</a> 
 <a href="" className='block bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>Services</a> 

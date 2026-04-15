@@ -93,7 +93,7 @@ const Airnbn = () => {
 
 {/* second finished */}
 {/* thired  */}
-              <div className='space-y-6  pt-8 md:w-88 px-5  md:h-153 border-2 border-rose-300 rounded'>
+              <div className='space-y-6  pt-8 md:w-88 px-5  md:h-150 border-2 border-rose-300 rounded'>
           <span className='text-2xl font-bold '>Enterprise</span>
           <p className='text-gray-500'>ideal for individuals who need quick access to basic features</p>
           <h3 className='text-3xl'>$100<span className='text-sm text-gray-600'>/Month</span></h3>
