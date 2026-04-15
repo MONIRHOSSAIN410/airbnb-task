@@ -8,7 +8,7 @@ import Tools from './components/Tools.jsx'
 import GettingStarted from './components/GettingStarted.jsx'
 import Reasons from './components/Reasons.jsx'
 // import Clients from './components/Clients.jsx'
-
+import CarouselSize from './components/CarouselSize.jsx'
 import Frequently from './components/Frequently.jsx'
 import Question from './components/Question.jsx'
 import Footer from './components/Footer.jsx'
@@ -25,10 +25,8 @@ const page = () => {
    <Tools/>
    <GettingStarted/>
   <Reasons/>
-  <div className='bg-amber-900 '>
-  
-  </div>
-   {/* <Clients/> */}
+ <CarouselSize/>
+{/* <Clients/> */}
    <Frequently/>
    <Question/>
    <Footer/>

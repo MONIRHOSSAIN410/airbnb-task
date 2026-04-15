@@ -4,8 +4,8 @@ import Image from 'next/image';
 const Service = () => {
   return (
     <div>
-        <div className='md:text-center m-7 '>
-            <h1 className='md:text-2xl mt-6.5 font-semibold font-jost'>Our <span className='text-rose-600'>Service</span></h1>
+        <div className='md:text-center m-7 place-items-center '>
+            <h1 className='md:text-2xl  mt-6.5 font-semibold font-jost'>Our <span className='text-rose-600'>Service</span></h1>
             <p className='md:w-2xl md:ml-85 md:mt-3.5 md:mb-8 font-jost'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, quis eaque alias rerum illo cum inventore fugiat error mollitia totam, facilis reiciendis consequuntur dicta rem impedit aperiam iusto debitis facere.</p>
         </div>
 

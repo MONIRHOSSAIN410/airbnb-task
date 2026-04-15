@@ -37,14 +37,14 @@ const Header = () => {
 </div>
 </div>
       </div>
- <div className={`md:hidden ${isMenuOpen ? 'block' :'hidden'} text-[16px] font-jost `}>
-<a href="" className=' block  bg-pink-600 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>Home</a> 
-<a href="" className=' block bg-pink-600 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>About</a> 
-<a href="" className='block bg-pink-600 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>Services</a> 
-<a href="" className='block bg-pink-600 hover:text-red-600  hover:underline underline-offset-6  px-3 py-2'>Pricing</a> 
-<a href="" className='block bg-pink-600 hover:text-red-600  hover:underline underline-offset-6  px-3 py-2'>Blog</a> 
-<a href="" className='block  bg-pink-600 hover:text-red-600  hover:underline  underline-offset-6 px-3 py-2'>Resources</a> 
-  <button className='bg-rose-600 hover:rose-500 p-2.5 text-white rounded flex'>Schedule A Meeting<MoveRight className='ml-1.5 w-4' /></button>
+ <div className={`md:hidden ${isMenuOpen ? 'block' :'hidden'} text-[16px] font-jost text-white `}>
+<a href="" className=' block  bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>Home</a> 
+<a href="" className=' block bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>About</a> 
+<a href="" className='block bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6  px-3 py-2'>Services</a> 
+<a href="" className='block bg-pink-400 hover:text-red-600  hover:underline underline-offset-6  px-3 py-2'>Pricing</a> 
+<a href="" className='block bg-pink-400 hover:text-red-600  hover:underline underline-offset-6  px-3 py-2'>Blog</a> 
+<a href="" className='block  bg-pink-400 hover:text-red-600  hover:underline  underline-offset-6 px-3 py-2'>Resources</a> 
+  <button className='bg-rose-500 hover:rose-500 p-2.5 text-white rounded mt-2.5 flex'>Schedule A Meeting<MoveRight className='ml-1.5 w-4' /></button>
  </div>
     </nav>
   )
