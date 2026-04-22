@@ -1,62 +1,73 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
 import { MdCopyright } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div>
-    <div className='lg:flex justify-between md:flex-2  bg-[#D6D6D6]  border-t border-gray-300 font-jost '>
-     
-      <div className='p-10'>
-<Image age src="/images/google3.png" width={100} height={60} alt=''/>
-<p className='md:w-96 md:mt-6.5 text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate magnam inventore sunt, quidem ut sequi fuga minima, nobis repellendus .</p>
-{/* icons stared */}
-<div className='lg:flex flex items-center gap-10 py-7'>
- <FaTwitter />
- <FaFacebookF />
- <FaInstagram />
- <FaGithub />
-</div>
-     
+    <footer className='w-full font-jost'>
+      {/* Main Content Container */}
+      <div className='bg-[#D6D6D6] border-t border-gray-300 px-6 py-10 md:px-12 lg:px-20'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12'>
+          
+          {/* Logo and Description Section - Spans 2 columns on large screens */}
+          <div className='lg:col-span-2 flex flex-col items-start'>
+            <Image src="/images/google3.png" width={100} height={60} alt='Logo' className='mb-6' />
+            <p className='text-gray-700 max-w-sm mb-6'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate magnam inventore sunt, quidem ut sequi fuga minima, nobis repellendus.
+            </p>
+            {/* Social Icons */}
+            <div className='flex items-center gap-6 text-xl'>
+              <FaTwitter className="cursor-pointer hover:text-blue-400 transition-colors" />
+              <FaFacebookF className="cursor-pointer hover:text-blue-600 transition-colors" />
+              <FaInstagram className="cursor-pointer hover:text-pink-600 transition-colors" />
+              <FaGithub className="cursor-pointer hover:text-gray-900 transition-colors" />
+            </div>
+          </div>
+
+          {/* Links Sections */}
+          <div>
+            <h1 className='text-xl font-semibold mb-4'>Company</h1>
+            <ul className='space-y-3 text-gray-700'>
+              <li className="hover:underline cursor-pointer">About</li>
+              <li className="hover:underline cursor-pointer">Features</li>
+              <li className="hover:underline cursor-pointer">Works</li>
+              <li className="hover:underline cursor-pointer">Career</li>
+            </ul>
+          </div>
+
+          <div>
+            <h1 className='text-xl font-semibold mb-4'>Help</h1>
+            <ul className='space-y-3 text-gray-700'>
+              <li className="hover:underline cursor-pointer">Customer Support</li>
+              <li className="hover:underline cursor-pointer">Delivery Details</li>
+              <li className="hover:underline cursor-pointer">Terms & Conditions</li>
+              <li className="hover:underline cursor-pointer">Privacy Policy</li>
+            </ul>
+          </div>
+
+          <div>
+            <h1 className='text-xl font-semibold mb-4'>Resources</h1>
+            <ul className='space-y-3 text-gray-700'>
+              <li className="hover:underline cursor-pointer">Free eBooks</li>
+              <li className="hover:underline cursor-pointer">Development Tutorial</li>
+              <li className="hover:underline cursor-pointer">How to-Blog</li>
+              <li className="hover:underline cursor-pointer">Youtube Playlist</li>
+            </ul>
+          </div>
+
+        </div>
       </div>
-      <div>
-        <ul className='p-10 space-y-5.5'>
-          <h1 className='text-xl font-semibold'>Company</h1>
-          <li>About</li>
-          <li>Features</li>
-          <li>Works</li>
-          <li>Career</li>
-        </ul>
+
+      {/* Bottom Bar */}
+      <div className='bg-[#230B41] py-5 px-4 text-white flex items-center justify-center text-sm md:text-base'>
+        <MdCopyright className='mr-2' />
+        <p className='text-center'>
+          Copyright 2024, All Rights Reserved by XYZ
+        </p>
       </div>
-      <div>
-        <ul className='p-10 space-y-5.5'>
-          <h1 className='text-xl font-semibold'>Help</h1>
-          <li>Customer Support</li>
-          <li>Delivery Details</li>
-          <li>Terms & Conditions</li>
-          <li>Privacy Policy</li>
-        </ul>
-      </div>
-      <div >
-        <ul className='p-10 space-y-5.5'>
-          <h1 className='text-xl font-semibold'>Resources</h1>
-          <li>Free eBooks</li>
-          <li>Development Tutorial</li>
-          <li>How to-Blog</li>
-          <li>Youtube Playlist</li>
-        </ul>
-      </div>
-     
-    </div>
- <div className='bg-[#230B41] md:p-5 flex md:flex items-center justify-center  p-5 text-sm text-white text-center font-jost'>
-         <MdCopyright className=' '/> <h2 className='pl-1'>Copyright 2024,All Rights Reserved by XYz,</h2>
-      </div>
-    </div>
-  )
-}
+    </footer>
+  );
+};
 
 export default Footer;

@@ -45,7 +45,7 @@ const Reasons = () => {
               className='absolute  z-40 bottom-10 left-2.5 w-32 md:w-56' />
 
             <Image src="/images/manoffice.png" width={200} height={300} alt="" 
-              className='absolute z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 md:w-64' />
+              className='absolute z-50 top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2 w-40 md:w-64' />
 
           </div>
         </div>
