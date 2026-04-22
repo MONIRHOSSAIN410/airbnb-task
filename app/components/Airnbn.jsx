@@ -19,7 +19,7 @@ const Airnbn = () => {
        </div>
         </div>
       {/* first plate */}
-      <div className='md:flex md:ml-16  m-5  gap-6 md:flex-2 items-center justify-center mt-10 '>
+      <div className=' md:ml-20 m-5  gap-6 md:flex md:flex-2  items-center justify-center mt-10 '>
         <div className='space-y-6 px-5  pt-8 md:w-88 md:h-150 border-2 border-rose-300 rounded'>
           <span className='text-2xl font-bold '>Freeble</span>
           <p className='text-gray-500'>ideal for individuals who need quick access to basic features</p>
